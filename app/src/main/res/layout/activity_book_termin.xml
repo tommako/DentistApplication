@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vaclav.tomas.doctororderterminapp.BookTerminActivity">
+
+    <!-- <EditText
+        android:id="@+id/DateEditText"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:hint="Vyber datum vysetrenia..."
+        android:inputType="textPersonName"
+        />-->
+
+    <Spinner
+        android:id="@+id/hourSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textViewMenoDoctora"
+        android:layout_marginBottom="230dp" />
+
+    <Spinner
+        android:id="@+id/minuteSpinner"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/SurnameEditText"
+        android:layout_alignTop="@+id/hourSpinner" />
+
+    <TextView
+        android:id="@+id/ChoosenDatetextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:text="Vybraný dátum na objednanie...." />
+
+    <Button
+        android:id="@+id/SelectDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:text="Vyberte si dátum vyšetrenia" />
+
+    <Spinner
+        android:id="@+id/doctorSpinner"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp" />
+
+    <TextView
+        android:id="@+id/textViewMenoDoctora"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Veberte meno doktora u ktorého si chcete rezervovať termín." />
+
+    <Button
+        android:id="@+id/bookTerminToDatabaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Objednať sa na vybraný termín" />
+
+    <EditText
+        android:id="@+id/NameEditText"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="170dp"
+        android:layout_marginStart="19dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Meno" />
+
+    <EditText
+        android:id="@+id/SurnameEditText"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/NameEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Priezvisko" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hourSpinner"
+        android:layout_toStartOf="@+id/bookTerminToDatabaseButton"
+        android:text="Hodina:" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hourSpinner"
+        android:layout_centerHorizontal="true"
+        android:text="Minúta:" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="265dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-223dp"
+        android:layout_marginBottom="136dp"
+        android:layout_toStartOf="@+id/hourSpinner"
+        android:text="Zadajte email pre potvrdenie termínu...." />
+
+    <EditText
+        android:id="@+id/EmailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/minuteSpinner"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="87dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email" />
+
+    <!-- <Button
+         android:id="@+id/TestSendEmailButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignEnd="@+id/textView7"
+         android:layout_below="@+id/NameEditText"
+         android:layout_marginTop="-170dp"
+         android:text="Send Email" />-->
+
+</RelativeLayout>

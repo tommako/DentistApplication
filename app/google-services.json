@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "317355161409",
+    "firebase_url": "https://dentistapp-4b536.firebaseio.com",
+    "project_id": "dentistapp-4b536",
+    "storage_bucket": "dentistapp-4b536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317355161409:android:445e834c3b799c4c",
+        "android_client_info": {
+          "package_name": "vaclav.tomas.doctororderterminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317355161409-ncdhl7mth22f3saesq69aovhvf9qhgs7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vaclav.tomas.doctororderterminapp",
+            "certificate_hash": "91d8e97dc71767af2940ff4296571343f2e276c6"
+          }
+        },
+        {
+          "client_id": "317355161409-76o6n0vkgiriqd2b3o8n0o9ja44brtio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC55cPQndSZuAIeeqjDLvPlUBHj-CoVU4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317355161409-76o6n0vkgiriqd2b3o8n0o9ja44brtio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+http://freeprojectcode.com/android/android-mysql-basic-crud-operation-tutorial-for-android-studio-project/
+
+https://www.simplifiedcoding.net/android-mysql-tutorial-to-perform-basic-crud-operation/
+
+https://www.tutorialspoint.com/android/android_php_mysql.htm
+
+https://www.youtube.com/watch?v=xu0kxjRfjuU
+
+sending mail:
+
+https://www.mkyong.com/android/how-to-send-email-in-android/
+
+https://www.tutorialspoint.com/android/android_sending_email.html
+
+https://medium.com/@cketti/android-sending-email-using-intents-3da63662c58f
+
+svn server:
+
+mozes skusit svn: adresa: https://wasaox.zapto.org/svn/dentistapp     
+ user: tomasmako    password: makotomas

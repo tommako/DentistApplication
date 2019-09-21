@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:padding="8dp">-->
+    <LinearLayout
+        android:id="@+id/terminAdapterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+        <TextView
+            android:id="@+id/textViewPatientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewUpdate"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:text="TextView"
+            app:autoSizeMaxTextSize="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/textViewPatientSurname"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewPatientSurname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/textViewTerminDate"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewTerminDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/textViewTerminTime"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewTerminTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="1dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/textViewTerminDate"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewStavTerminu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DoctorOrderTerminApp</string>
+    <string name="doctorName">DoctorTerminsActivity</string>
+    <string name="doctorSurname">DoctorTerminsActivity</string>
+</resources>
